@@ -242,6 +242,83 @@ var StandingToeTouches = Exercise{
 	Description:   "Standing toe touches are a great exercise for your core and hamstrings. Stand with your feet hip-width apart and your arms extended overhead. Bend at the waist and reach your right hand towards your left foot. Return to the starting position and repeat on the other side.",
 }
 
+var ThreadTheNeedle = Exercise{
+	Name:          "Thread the Needle",
+	MuscleGroup:   "Full Body",
+	Reps:          0,
+	WorkingTime:   30,
+	Sets:          3,
+	IsAdvaned:     false,
+	Modifications: []string{"Child's Pose", "Downward Dog", "Cat Cow"},
+	Description:   "Thread the needle is a great yoga pose that stretches your shoulders, chest, and upper back. Start on your hands and knees with your wrists under your shoulders and your knees under your hips. Reach your right arm under your left arm and lower your right shoulder and ear to the ground. Hold the position for a few breaths, then return to the starting position and repeat on the other side.",
+}
+
+var ButtKick = Exercise{
+	Name:          "Butt Kick",
+	MuscleGroup:   "Full Body",
+	Reps:          0,
+	WorkingTime:   30,
+	Sets:          3,
+	IsAdvaned:     false,
+	Modifications: []string{"High Knees", "Running in Place", "Jump Rope"},
+	Description:   "Butt kicks are a great exercise for your heart and lungs. Start with your feet hip-width apart and your arms at your sides. Run in place, bringing your heels up towards your glutes as high as you can. Pump your arms as if you were running and keep up the pace for the prescribed time.",
+}
+
+var VSit = Exercise{
+	Name:          "V-Sit",
+	MuscleGroup:   "Core",
+	Reps:          15,
+	WorkingTime:   0,
+	Sets:          3,
+	IsAdvaned:     false,
+	Modifications: []string{"Bicycle Crunches", "Russian Twists", "Leg Raises"},
+	Description:   "V-sit is a great exercise for your abs. Sit on the ground with your legs extended in front of you and your hands on the ground behind you. Lift your legs and upper body off the ground, forming a V shape with your body. Hold the position for a second, then lower yourself back down and repeat for the prescribed number of reps.",
+}
+
+var VUp = Exercise{
+	Name:          "V-Up",
+	MuscleGroup:   "Core",
+	Reps:          15,
+	WorkingTime:   0,
+	Sets:          3,
+	IsAdvaned:     false,
+	Modifications: []string{"Bicycle Crunches", "Russian Twists", "Leg Raises"},
+	Description:   "V-up is a great exercise for your abs. Lie on your back with your legs extended in front of you and your arms extended overhead. Lift your legs and upper body off the ground, forming a V shape with your body. Hold the position for a second, then lower yourself back down and repeat for the prescribed number of reps.",
+}
+
+var HollowBodyHold = Exercise{
+	Name:          "Hollow Body Hold",
+	MuscleGroup:   "Core",
+	Reps:          0,
+	WorkingTime:   30,
+	Sets:          3,
+	IsAdvaned:     false,
+	Modifications: []string{"Tuck Hold", "Arch Hold", "Hollow Body Rocks"},
+	Description:   "Hollow body hold is a great exercise for your core. Lie on your back with your legs extended in front of you and your arms extended overhead. Lift your legs and upper body off the ground, forming a banana shape with your body. Hold the position for the prescribed time, keeping your lower back pressed into the ground.",
+}
+
+var Burpees = Exercise{
+	Name:          "Burpees",
+	MuscleGroup:   "Full Body",
+	Reps:          0,
+	WorkingTime:   30,
+	Sets:          3,
+	IsAdvaned:     false,
+	Modifications: []string{"Half Burpees", "Burpee with Push Up", "Jumping Jacks"},
+	Description:   "Burpees are a hated exercise that is a great full body exercise. Start in a standing position, then squat down and place your hands on the ground. Jump your feet back into a push up position, then perform a push up. Jump your feet back to your hands, then explode up into a jump. Land softly and repeat for the prescribed time.",
+}
+
+var Situps = Exercise{
+	Name:          "Situps",
+	MuscleGroup:   "Core",
+	Reps:          15,
+	WorkingTime:   0,
+	Sets:          3,
+	IsAdvaned:     false,
+	Modifications: []string{"Crunches", "Leg Raises", "Russian Twists"},
+	Description:   "Situps are a great exercise for your abs. Lie on your back with your knees bent and your feet flat on the floor. Place your hands behind your head and lift your shoulders off the ground. Engage your core and sit all the way up, then lower yourself back down and repeat for the prescribed number of reps.",
+}
+
 var List = []Exercise{
 	PushUps,
 	DeclinePushUps,
@@ -264,4 +341,11 @@ var List = []Exercise{
 	StandingSideCrunch,
 	StandingAlternatingCrunch,
 	StandingToeTouches,
+	ThreadTheNeedle,
+	ButtKick,
+	VSit,
+	VUp,
+	HollowBodyHold,
+	Burpees,
+	Situps,
 }
